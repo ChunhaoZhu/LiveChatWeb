@@ -1,0 +1,180 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+h4{
+    font-size: larger;
+    line-height: 4vh;
+    background-color: azure;
+}
+@media screen and (min-width: 1024px) {
+    #app-view {
+      width: 80%;
+    }
+    .page-control {
+        width: 80%;
+    }
+    .message-list {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #app-view {
+      width: 90%;
+    }
+    .page-control {
+        width: 90%;
+    }
+    .message-list {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #app-view {
+      width: 100%;
+    }
+    .page-control {
+        width: 100%;
+    }
+    .message-list {
+        width: 100%;
+    }
+}
+
+.message{
+    width:fit-content;
+    height:fit-content;
+    background-color: #dbd7d7;
+    margin-left: 15px;
+    margin-right: auto;
+    padding: 2px 20px 5px 5px;
+}
+.my-message{
+    width:fit-content;
+    height:fit-content;
+    background-color: #71b2e7;
+    margin-left: auto;
+    margin-right: 15px;
+    padding: 2px 20px 5px 5px;
+}
+
+#app-menu li:hover{
+    background-color: #4e9cdb;
+}
+.menu-item a:hover{
+    color: #a24189;
+}
+.room-list li:hover{
+    background-color: #88b7dc;
+}
+*{
+    padding: 0;
+    margin:0;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+#app-menu{
+    column-count: 2;
+    column-gap: 0ch;
+    background-color: #31b8b1;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+    height: 5vh;
+}
+#app-menu li{
+    height: 5vh;
+    line-height: 5vh;
+    text-align: center;
+}
+.menu-item a{
+    display: block;
+}
+.room-list li{
+    border-bottom:1px solid black;
+    height:5vh;
+    line-height: 5vh;
+    background-color: #efeae4;
+}
+.room-list a{
+    color: black;
+    font-size: larger;
+    display: block;
+    margin-left: 1vw;
+}
+.page-control{
+    background-color: #31b8b1;
+    position: absolute;
+    bottom: 0;
+    height:5vh;
+    line-height: 5vh;
+    display: block;
+    text-align: center;
+}
+.page-control button{
+    background-color: #efeae4;
+    height: 4vh;
+    width: 9vw;
+    font-size: large;
+}
+.message-list span{
+    display:block;
+    /*line-height: 3vh;*/
+    margin-left: 1vw;
+    width: fit-content;
+    max-width: 90%;
+}
+.message-list div{
+    margin-bottom: 10px;
+    border-radius: 9px;
+}
+.message-user{
+    font-size: larger;
+    font-weight: bold;
+}
+.message-list{
+    position: absolute;
+    font-size: large;
+    overflow: auto;
+    display: block;
+}
+.page-control textarea{
+    vertical-align: middle;
+    width: 50vw;
+}
+.profile-form div{
+    border-bottom:1px solid black;
+    height:7vh;
+    line-height: 7vh;
+}
+#form-field-about{
+    height:20vh;
+    line-height: 10vh;
+}
+.form-field textarea {
+    position:relative;
+    width: 50%;
+    height: 90%;
+    top: 5%;
+}
+.form-field input{
+    padding: 4px 0px;
+}
+.form-field label {
+    position:relative;
+    display:inline-block;
+    margin-left: 1vw;
+    width: 8vw;
+    font-size: larger;
+}
+
+
+
+
+
