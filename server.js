@@ -237,5 +237,5 @@ broker.on("connection", function(ws, req){
 })
 
 // at the very end of server.js
-cpen322.connect('http://99.79.42.146/cpen322/test-a5-server.js');
-cpen322.export(__filename, { app,db,messageBlockSize, messages, broker, sessionManager, isCorrectPassword});
+// cpen322.connect('http://99.79.42.146/cpen322/test-a5-server.js');
+// cpen322.export(__filename, { app,db,messageBlockSize, messages, broker, sessionManager, isCorrectPassword});
